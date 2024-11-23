@@ -1,0 +1,17 @@
+.error{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.err-text{
+    color: red;
+    padding: 10px;
+    font-size: 22px;
+}
+.success-text{
+    color: green;
+    padding: 10px;
+    font-size: 22px;
+}

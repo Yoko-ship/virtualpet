@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-size: 20;
+    font-family: inherit;
+}
+.container,.interactive{
+    background-color: #212121;
+    color: white;
+    display: flex;
+}
+
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    gap: 15px;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+
+.texts label{
+    padding: 10px;
+    margin: 0 auto;
+}
+.texts p,span{
+    text-align: center;
+    padding: 5px;
+}
+
+.images img{
+    width: 300px;
+    max-height:300px;
+}
+.images button img{
+    width: 80px;
+    height: 80px;
+    border: none;
+}
+.images button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
+
+.images button{
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.images video{
+    width: 300px;
+    height: 300px;
+}
+
+.interactive{
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+    gap: 40px;
+}
+.interactive button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+}
+.interactive button img{
+    border: none;
+    background: none;
+}
+
+.menu-bar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.menu-bar img{
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+
+.delete{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.delete button{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
